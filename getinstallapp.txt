@@ -1,5 +1,5 @@
 #!/bin/env bash
 apt-get update
 apt-get install -fy python-setuptools build-essential python-dev easy_install flask psutil
-wget file2 -O app.py
+wget https://raw.githubusercontent.com/simargll/gcloud/main/getinstallapp2.txt -O app.py
 FLASK_APP=app.py flask run --host=0.0.0.0 --port=80
