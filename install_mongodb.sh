@@ -1,4 +1,5 @@
 #!/bin/bash
+set -o igncr
 `apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927`
 `apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA312927`
 
