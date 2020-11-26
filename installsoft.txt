@@ -1,4 +1,5 @@
-#!/bin/env bash
-`wget -O - https://raw.githubusercontent.com/simargll/gcloud/main/install_ruby.sh | bash`
-`wget -O - https://raw.githubusercontent.com/simargll/gcloud/main/install_mongodb.sh | bash`
-`wget -O - https://raw.githubusercontent.com/simargll/gcloud/main/deploy.sh | bash`
+#!/bin/bash
+apt install dos2unix
+`wget -O - https://raw.githubusercontent.com/simargll/gcloud/main/install_ruby.sh |  dos2unix | bash`
+`wget -O - https://raw.githubusercontent.com/simargll/gcloud/main/install_mongodb.sh | dos2unix | bash`
+`wget -O - https://raw.githubusercontent.com/simargll/gcloud/main/deploy.sh | dos2unix | bash`
